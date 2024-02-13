@@ -55,3 +55,32 @@ else
 Console.ReadLine();*/
 #endregion Prime Number
 
+#region String Reverse
+/*Console.WriteLine("Enter any String");
+string str = Console.ReadLine();
+string reverse = " ";
+for (int i = str.Length - 1; i >= 0; i--)
+{
+    reverse += str[i];
+}
+Console.WriteLine(reverse);*/
+#endregion String Reverse
+
+#region String Palindrome
+/*Console.WriteLine("enter any string for check its palidrome or not :");
+string str = Console.ReadLine();
+string res = " ";
+char[] arr = str.ToCharArray();
+Array.Reverse(arr);
+string str_res = new string(arr);
+if (str == str_res)
+{
+    Console.WriteLine( "string is palindrome");
+}
+else
+{
+    Console.WriteLine("string is not palindrome");
+}
+Console.ReadLine();*/
+
+#endregion String Palindrome
