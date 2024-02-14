@@ -57,13 +57,13 @@ Console.ReadLine();*/
 
 #region String Reverse
 /*Console.WriteLine("Enter any String");
-string str = Console.ReadLine();
-string reverse = " ";
-for (int i = str.Length - 1; i >= 0; i--)
+string a = Console.ReadLine();
+string Reverse = " ";
+for (int i = a.Length - 1; i >= 0; i--)
 {
-    reverse += str[i];
+    Reverse += a[i];
 }
-Console.WriteLine(reverse);*/
+Console.WriteLine(Reverse);*/
 #endregion String Reverse
 
 #region String Palindrome
@@ -75,7 +75,7 @@ Array.Reverse(arr);
 string str_res = new string(arr);
 if (str == str_res)
 {
-    Console.WriteLine( "string is palindrome");
+    Console.WriteLine("string is palindrome");
 }
 else
 {
@@ -84,3 +84,41 @@ else
 Console.ReadLine();*/
 
 #endregion String Palindrome
+
+#region Fibonacci Series
+/*int n, a = 0, b = 1, c;
+Console.WriteLine("enter term :");
+n = Convert.ToInt32(Console.ReadLine());
+for (int i = 1; i <=n; i++)
+{
+    Console.WriteLine(a);
+    c = a + b;
+    a = b;
+    b = c;
+}
+Console.ReadLine();*/
+#endregion Fibonacci Series
+
+#region Peramid Print
+//Holloww Ractangle
+
+/*int n;
+Console.WriteLine("enter any digit");
+n = int.Parse(Console.ReadLine());
+for (int i = 1; i <= n; i++)
+{
+    for (int j = 1; j <= n; j++)
+    {
+        if (i == 1 || j == 1 || i == n || j == n)
+        {
+            Console.Write("*");
+        }
+        else
+        {
+            Console.Write(" ");
+        }
+    }
+    Console.WriteLine();
+}
+*/
+#endregion Peramid Print
