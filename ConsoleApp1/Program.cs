@@ -89,7 +89,7 @@ Console.ReadLine();*/
 /*int n, a = 0, b = 1, c;
 Console.WriteLine("enter term :");
 n = Convert.ToInt32(Console.ReadLine());
-for (int i = 1; i <=n; i++)
+for (int i = 1; i <= n; i++)
 {
     Console.WriteLine(a);
     c = a + b;
@@ -122,3 +122,22 @@ for (int i = 1; i <= n; i++)
 }
 */
 #endregion Peramid Print
+
+#region Sum Of Array Element
+class ArrayExp
+{
+    public  static void Main(String[] args)
+    {
+        int[] arr = { 10, 20, 30 };
+        int sum = 0;
+       /* Console.WriteLine("enter element for sum");
+        n = int.Parse(Console.ReadLine());
+        int[] arr = new int[n];*/
+        for (int i = 0; i < arr.Length; i++)
+        {
+            sum += arr[i];
+        }
+        Console.WriteLine(sum);
+    }
+}
+#endregion Sum Of Array Element
