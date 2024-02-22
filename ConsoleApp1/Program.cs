@@ -121,6 +121,57 @@ for (int i = 1; i <= n; i++)
     Console.WriteLine();
 }
 */
+
+// Half Pyramid
+
+/*int n;
+Console.WriteLine("Enter Any Number ");
+n = Convert.ToInt32(Console.ReadLine());
+for(int i = 1; i<=n;i++)
+{
+    for(int j=1;j<=i;j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+Console.ReadLine();*/
+
+//Inverted Half Pyramid
+
+/*int n;
+Console.WriteLine("Enter Any Number :");
+n = Convert.ToInt32(Console.ReadLine());
+for(int i = n; i>=1; i--)
+{
+    for(int j=1;j<=i;j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+Console.ReadLine();*/
+
+//Inverted Half Pyramid
+//(Rotated By 180 def)
+
+/*int n;
+Console.WriteLine("Enter Any No :");
+n = Convert.ToInt32(Console.ReadLine());
+for(int i=1;i<=n;i++)
+{
+    for (int j=1;j<=n-i;j++)
+    {
+        Console.Write(" ");
+    }
+    for(int j=1;j<=i;j++)
+    {
+        Console.Write("*");
+    }
+    Console.WriteLine();
+}
+Console.ReadLine();*/
+
 #endregion Peramid Print
 
 #region Sum Of Array Element
